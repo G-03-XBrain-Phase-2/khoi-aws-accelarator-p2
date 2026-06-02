@@ -5,7 +5,7 @@
 - Chuyên ngành: Cloud / DevOps
 # Theo dõi tiến độ
 ## Week 8 
-- Day-A: [Terraform](https://github.com/G-03-XBrain-Phase-2/khoi-aws-accelarator-p2/tree/main/cloud)
+- Day-A: [Terraform](https://github.com/G-03-XBrain-Phase-2/khoi-aws-accelarator-p2/tree/main/cloud/w8/Day-A)
 - Day-B: [K8s Container/Orchestration](https://github.com/G-03-XBrain-Phase-2/khoi-aws-accelarator-p2/tree/main/cloud/w8/Day-B)
 - Day-C: [K8s Scaling + Networking](https://github.com/G-03-XBrain-Phase-2/khoi-aws-accelarator-p2/tree/main/cloud/w8/Day-C)
 - Lab: [Minimal K8s platform](https://github.com/G-03-XBrain-Phase-2/khoi-aws-accelarator-p2/tree/main/cloud/w8/Lab)
