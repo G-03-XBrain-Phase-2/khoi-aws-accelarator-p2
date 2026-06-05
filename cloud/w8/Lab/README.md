@@ -1,12 +1,4 @@
-# tf-k8s-alb
-
-> **1 lệnh** → VPC + EC2 + minikube + Kubernetes app + ALB → URL truy cập được từ Internet
-
-```
-terraform apply -auto-approve
-```
-
----
+# Capstone Week 8
 
 ## Kiến trúc
 
