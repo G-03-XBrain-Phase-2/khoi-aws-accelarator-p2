@@ -1,0 +1,37 @@
+Amazon Macie sensitive data discovery lab.
+All values below are synthetic test values. Do not use real customer data.
+
+customer_record_001:
+  full_name: Nguyen Van A
+  email_address: nguyenvana@example.com
+  phone_number: +84 912 345 678
+  postal_address: 01 Nguyen Hue Street, District 1, Ho Chi Minh City, Vietnam
+  date_of_birth: 1995-04-22
+
+payment_record_001:
+  credit_card_number: 4111 1111 1111 1111
+  credit_card_expiration: 12/2030
+  credit_card_security_code: 123
+
+payment_record_002:
+  credit_card_number: 5555 5555 5555 4444
+  credit_card_expiration: 10/2029
+  credit_card_security_code: 456
+
+payment_record_003:
+  credit_card_number: 3782 822463 10005
+  credit_card_expiration: 08/2028
+  credit_card_security_code: 7890
+
+identity_record_001:
+  us_social_security_number: 123-45-6789
+  passport_number: C1234567
+  driver_license_number: D12345678
+
+identity_record_002:
+  us_social_security_number: 987-65-4320
+  passport_number: P9876543
+
+aws_test_credentials:
+  aws_access_key_id: AKIAIOSFODNN7EXAMPLE
+  aws_secret_access_key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY

@@ -1,0 +1,13 @@
+apiVersion: policy.sigstore.dev/v1beta1
+kind: ClusterImagePolicy
+metadata:
+  name: require-signed-images
+spec:
+  images:
+  - glob: "ghcr.io/Temp-gitgud/**"
+  authorities:
+  - key:
+      data: |
+        -----BEGIN PUBLIC KEY-----
+        MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEwOgPm/ZFtLkjfrMvS2P+EFmtORziQUDgC0wa3bBNaBPaJzhvbX3DrnA6CJrzhAHfuKyW1d9H6tX3oTGYSMbBaw==
+        -----END PUBLIC KEY-----

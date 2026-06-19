@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: rbac
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/Temp-gitgud/temp.git  # đổi thành repo của bạn
+    targetRevision: HEAD
+    path: rbac
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: demo
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
